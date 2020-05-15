@@ -51,9 +51,9 @@ bool checksum(long long ccn)
 void print_credit_card_brand(long long ccn)
 {
     if ( (ccn >= 34e13 && ccn < 35e13) || (ccn >= 37e13 && ccn < 38e13) )
-        printf("AMEX\n");
+        printf("American Express\n");
     else if (ccn >= 51e14 && ccn < 56e14)
-        printf("MASTERCARD\n");
+        printf("Mastercard\n");
     else if ( (ccn >= 4e12 && ccn < 5e12) || (ccn>= 4e15 && ccn < 5e15) ) 
         printf("VISA\n");
     else
